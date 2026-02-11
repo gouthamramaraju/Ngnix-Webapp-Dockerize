@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+ .env
+*.pyo
+
+# Docker
+*.log
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Compose overrides
+docker-compose.override.yml
+.ssh/
+*.pem
+.env
+.ssh/
+*.pem
+venv/
+__pycache--?

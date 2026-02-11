@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  webapp:
+    build: ./webapp
+    container_name: webapp
+    expose:
+      - "5000"
+
+  nginx:
+    build: ./Ngnix
+    container_name: nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - webapp
+
